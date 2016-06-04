@@ -1,0 +1,92 @@
+<!-- GNU General Public License v3.0 -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>PZGS 마작소모임 - 삼마</title>
+    <style>
+            table { text-align: center; }
+            hr { color: silver; }
+            
+            thead > tr:nth-child(1) {
+                background-color: #353f6d;
+                color: #FFFFFF;
+                font-family: sans-serif;
+                font-weight: bold;
+            }
+            thead > tr:nth-child(2) {
+                background-color: #78b3c5;
+                font-family: sans-serif;
+            }
+            tbody > tr:first-child, tbody > tr:nth-child(2n+1) { background-color: #f7f7f7; }
+            tbody > tr:nth-child(2n) { background-color: #e0e0e0; }
+            tbody > tr > td { font-size: 0.8em; }
+            
+            #wrap {
+                width: 500px;
+            }
+            #header {
+                width: 500px;
+                font-family: sans-serif;
+                text-align: center;
+            }
+            #synthetic { margin: 5px 5px 5px 5px; }
+            #footer {
+                width: 500px;
+                font-family: sans-serif;
+                color: silver;
+                text-align: center;
+                font-size: 0.8em;
+            }
+            
+            .numbering { font-weight: bold; }
+            .syn_nickname { column-width: 80px; }
+            .syn_score { column-width: 60px }
+    </style>
+</head>
+<body>
+    <!-- HARD CODING BEFORE BUILD PHP PAGES... -->
+    <div id="wrap">
+    <!-- Header -->
+    <div id="header">
+        <h2>마작소모임 - 삼마대국기록</h2>
+        <hr>
+    </div>
+    
+    <!-- Synthetic Record -->
+    <div id="synthetic">
+    <table>
+        <!-- Labels -->
+        <thead>
+            <tr>
+                <td colspan="8">종합기록</td>
+            </tr>
+            <tr>
+                <td width="50px">회차</td>
+                <td colspan="2" width="140px">첫동</td>
+                <td colspan="2" width="140px">첫남</td>
+                <td colspan="2" width="140px">첫서</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="numbering">1</td>
+                <td class="syn_nickname">버뮤#</td>
+                <td class="syn_score">+900</td>
+                <td class="syn_nickname">W3O4Uls</td>
+                <td class="syn_score">-31200</td>
+                <td class="syn_nickname">Kido</td>
+                <td class="syn_score">+31200</td>
+            </tr>
+        </tbody>
+    </table>
+    </div>
+    
+    <!-- Footer -->
+    <div id="footer">
+        <hr>
+        <p>Code by <a href="https://github.com/Cellularhacker">Cellularhacker</a></p>
+    </div>
+    </div>
+</body>
+</html>
